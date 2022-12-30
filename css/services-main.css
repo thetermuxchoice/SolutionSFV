@@ -6,22 +6,19 @@
 * {
   font-family: proximanova-semibold, sans-serif;
 }
-header.nav-bar{
-    height: 100px;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    width: calc(100% - var(--margin-between)*2);
-    background-color: black;
+header.nav-bar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: calc(100% - var(--margin-between) * 2);
+  background-color: black;
 }
-.nav-bar .logo{
-    background-color: rgba(245, 245, 245, 0.1);
-    border-radius: 2em;
+.nav-bar .logo {
 }
-.nav-bar .logo:hover{
-    border: none;
-    outline: solid whitesmoke;
-
+.nav-bar .logo:hover {
+  background-color: rgba(245, 245, 245, 0.1);
+  border-radius: 2em;
 }
 body.principal {
   background: black;
@@ -39,75 +36,73 @@ body.child {
 body::-webkit-scrollbar {
   display: none;
 }
-main.conteiner{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
+main.conteiner {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
 }
-article.conteiner{
-    width: 50%;
-    padding: 0 10px;
+article.conteiner {
+  width: 50%;
+  padding: 0 10px;
 }
-aside.conteiner{
-    width: 40%;
-    height: 250px;
+aside.conteiner {
+  width: 40%;
+  height: 250px;
 }
 
 iframe {
   width: 100%;
   height: 100%;
 }
-.reveal{
- animation: reveal linear 1s;
-
+.reveal {
+  animation: reveal linear 1s;
 }
-.child *{
-    color:  white;
-    text-align: left;
+.child * {
+  color: white;
+  text-align: left;
 }
-.child .title{
-    font-size: 1.8rem;
-    padding-bottom: 30px;
-    padding-top: 20px;
+.child .title {
+  font-size: 1.8rem;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
-section.content *{
-    margin: 0;
+section.content * {
+  margin: 0;
 }
 section.content {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
-section.content .sub-title{
-    margin-bottom: 10px;
+section.content .sub-title {
+  margin-bottom: 10px;
 }
-.content .sub-title{
-    font-size: 1.1rem;
+.content .sub-title {
+  font-size: 1.1rem;
 }
-.content .list{
-    padding: 0;
-    margin: 20px 0;
+.content .list {
+  padding: 0;
+  margin: 20px 0;
 }
-.content .list-item{
-    list-style: none;
-    padding-left: 10px;
+.content .list-item {
+  list-style: none;
+  padding-left: 10px;
 }
 .content .list-item::before {
-    content: "";
-    position: absolute;
-    left: 5px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: aqua;
-    margin-right: 2px;
-    margin-top: 5px;
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-right: 2px;
+  margin-top: 5px;
 }
-section .paragraph{
-    font-size: 1.1rem;
+section .paragraph {
+  font-size: 1.1rem;
 }
-.child .paragraph{
-
+.child .paragraph {
 }
 
 .pop-conteiner {
@@ -156,6 +151,7 @@ section .paragraph{
   display: flex;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
   /* animation: rotate linear infinite 15s;*/
 }
 
@@ -186,7 +182,14 @@ section .paragraph{
   animation: rotateCorner linear 5s infinite;
   transform: translate(-50%, -50%) rotate(calc(360deg / -6 * var(--i)));
 }
+.pop-item {
+  transition: 0.5s;
+}
+.pop-menu:hover > :not(.pop-item:hover) {
+  opacity: 0.1;
+}
 .pop-item:hover ::after {
+  background-color: aqua;
   position: absolute;
   background-color: white;
   z-index: -1;
@@ -230,7 +233,10 @@ section .paragraph{
   }
 }
 @keyframes reveal {
-    from{ opacity: 0;}
-    to{opacity: 1;}
-    
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
