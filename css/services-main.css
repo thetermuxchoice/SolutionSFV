@@ -169,6 +169,7 @@ section .paragraph {
   transform-origin: 200px;
   transform: rotate(calc(360deg / 6 * var(--i)));
 }
+
 .pop-item:hover ::before {
   position: absolute;
   background: linear-gradient(to right, rgb(197, 0, 197), cyan);
