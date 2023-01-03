@@ -241,3 +241,13 @@ section .paragraph {
     opacity: 1;
   }
 }
+.accordion{
+  color: aqua;
+}
+.accordion:hover{
+  color: rgb(0, 150, 150);
+}
+.panel {
+  display: none;
+  overflow: hidden;
+}

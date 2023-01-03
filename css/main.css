@@ -1630,11 +1630,12 @@ h1,h2,h3{
     }
     .explore__project-block{
         width:70vw;
-        height:82vw
+        height:90vw
     }
     .explore__subh3{
         line-height:1.5
     }
+
 }
 .execute{
     padding-top:0;
