@@ -101,10 +101,12 @@
       //listerners
       //mueve el target en relacional scroll
       content.addEventListener("scroll", function(){
-        let scrollValue = this.scrollTop;
-        scrollAmount = scrollBar.offsetHeight*scrollValue/875;
+        scrollValue = this.scrollTop;
+        let relativeScroll = this.scrollHeight-this.offsetHeight;
+        scrollAmount = scrollBar.offsetHeight*scrollValue/relativeScroll;
         scrollAmount = Math.round(scrollAmount);
         console.log(scrollAmount);
+
         rute.style.height = scrollAmount + "px";
         slider.style.top = scrollAmount - rute.style.height  + "px";
       })
