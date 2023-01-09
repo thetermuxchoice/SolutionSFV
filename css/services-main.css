@@ -69,6 +69,8 @@ div.scroll-bar-conteiner{
   height: 100%;
   width: 2px;
   background-color: #fff;
+  border-radius: 2rem;
+
   margin: 0 var(--margin-between);
 }
 div.scroll-bar-conteiner .slider{
@@ -81,7 +83,16 @@ div.scroll-bar-conteiner .slider{
   background-color: aqua;
   border-radius: 50%;
   margin: auto;
+  
 }
+div.scroll-bar-conteiner .rute{
+  width: 100%;
+  border-radius: 2rem;
+  background-color: aqua;
+  box-shadow: 0px 0px 5px 1px rgba(0, 255, 255, 0.25);
+  animation: neon 2s ease-in-out infinite alternate;
+}
+
 
 article.conteiner{
   display: flex;
@@ -261,4 +272,8 @@ body {
   100% {
       transform: translateX(1);
   }
+}
+
+@keyframes neon {
+  100%{ filter: drop-shadow(0px 0px 5px aqua) }
 }

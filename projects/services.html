@@ -18,9 +18,11 @@
           <h1 class="title services">Complience Services</h1>
         </div>
         <div id="scroll-bar-conteiner" class="scroll-bar-conteiner">
+          <div id="rute" class="rute"></div>
           <div id="slider" class="slider"></div>
+          
         </div>
-        <section class="services content">
+        <section id="services-panel" class="services content">
           <h5>First slide label</h5>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
@@ -87,7 +89,25 @@
     </main>
     <script>
       const scrollBar = document.getElementById("scroll-bar-conteiner");
+      const content = document.getElementById("services-panel");
       const slider = document.getElementById("slider");
+      const rute = document.getElementById("rute");
+
+      //valores por defecto
+      let scrollAmount = 0;
+      slider.style.top = scrollAmount + "px";
+
+
+      //listerners
+      //mueve el target en relacional scroll
+      content.addEventListener("scroll", function(){
+        let scrollValue = this.scrollTop;
+        scrollAmount = scrollBar.offsetHeight*scrollValue/875;
+        scrollAmount = Math.round(scrollAmount);
+        console.log(scrollAmount);
+        rute.style.height = scrollAmount + "px";
+        slider.style.top = scrollAmount - rute.style.height  + "px";
+      })
     </script>
   </body>
 </html>
