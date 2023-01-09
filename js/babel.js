@@ -24093,7 +24093,13 @@ function _toPrimitive(input, hint) {
             r = this.material,
             o = this.matrixWorld;
           if (
-            void 0 !== r &&
+            void 0       <div class="card" >
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorem, ipsum dolor.</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>!== r &&
             (null === i.boundingSphere && i.computeBoundingSphere(),
             Yt.copy(i.boundingSphere),
             Yt.applyMatrix4(o),

@@ -1460,6 +1460,11 @@ h1,h2,h3{
     position: unset !important;
     height: 120px !important;
   }
+
+a.grid-item{
+    margin: 20px 0;
+    text-decoration: none;
+}
 .explore__hero{
     height:50vh;
     min-height:50vh
@@ -1569,6 +1574,9 @@ h1,h2,h3{
     display:flex
 }
 .grid-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     flex-grow:1;
     width:50%
 }
