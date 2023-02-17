@@ -2613,7 +2613,7 @@ blockquote {
 .button.small {
 	height: 44px;
 	padding: 16px 24px;
-	border-radius: 24px
+	/*border-radius: 24px*/
 }
 
 .button.small.primary {
@@ -2637,9 +2637,9 @@ blockquote {
 }
 
 .button.big {
-	height: 72px;
+	height: 44px;
 	padding: 30px 40px;
-	border-radius: 40px
+	/*border-radius: 40px*/
 }
 
 .button.big.primary {
@@ -2648,8 +2648,8 @@ blockquote {
 }
 
 .button.big.primary-negative {
-	background-color: #fff;
-	color: #0c0c0c
+	background-color: #333bf3;
+	color: #fff
 }
 
 .button.big.secondary {
@@ -2671,16 +2671,16 @@ blockquote {
 }
 
 .button.primary-negative {
-	border: 1px solid #fff;
-	background-color: #fff;
-	color: #0c0c0c;
+	border: 1px solid #333bf3;
+	background-color: #333bf3;
+	color: #fff;
 	text-transform: uppercase
 }
 
 .button.primary-negative:hover {
-	border: 1px solid #fff;
-	background-color: transparent;
-	color: #fff
+	border: 1px solid #0cd1a5;
+	background-color: #0cd1a5;
+	color: #000
 }
 
 .button.secondary {
@@ -9209,23 +9209,27 @@ blockquote {
   transform: perspective(300px) rotateY(-4deg) !important;
   transform-origin: 50% 50% !important;
 
-  text-shadow: 8px  2px  4px   #aaa,
-               0  4px  0   #ccc0,
-               0  6px  0   #ccc0, 
-               0  8px  0   #ccc0, 
-               0 10px  0   #ccc0,
-               0 12px  0   #aaa,
+  /*text-shadow: 8px  2px  4px   #42424299,
+               0  4px  0   #42424299,
+               0  6px  0   #42424299, 
+               0  8px  0   #42424299, 
+               0 10px  0   #42424299,
+               0 12px  0   #42424299,
               3px 8px 15px rgba(0,0,0,0.1),
-              3px 8px  5px rgba(0,0,0,0.3);
-color:#339cfa;
+              3px 8px  5px rgba(0,0,0,0.3);*/
+color:#fff;
 }
 
 .description-hero{
-  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.27em;
+  font-size: 43px;
   line-height: 80px;
   transform: perspective(300px) rotateY(-4deg) !important;
   transform-origin: 50% 50% !important;
   color: #fff;
+  font-weight: 300 !important;
+  padding: 25px;
 }
 
 

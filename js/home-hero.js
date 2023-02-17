@@ -202,7 +202,7 @@ var controls;
 controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = false;
 // controls.autoRotate = true
-controls.addEventListener('end', () => console.log("Controls End Event"))
+
 
 /**
  * Animate
