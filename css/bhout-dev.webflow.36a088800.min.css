@@ -2581,7 +2581,7 @@ blockquote {
 
 .pre-order-btn-wrap {
 	display: block;
-	height: 44px
+	height: 58px
 }
 
 .menu-wrap {
@@ -2617,7 +2617,7 @@ blockquote {
 }
 
 .button.small.primary {
-	background-color: #333bf3;
+	/*background-color: #333bf3;*/
 	color: #fff
 }
 
@@ -2648,7 +2648,7 @@ blockquote {
 }
 
 .button.big.primary-negative {
-	background-color: #333bf3;
+	/*background-color: #333bf3;*/
 	color: #fff
 }
 
@@ -2658,28 +2658,34 @@ blockquote {
 }
 
 .button.primary {
-	border: 1px solid #333bf3;
-    background-color: #333bf3;
+	/*border: 1px solid #333bf3;
+    background-color: #333bf3;*/
 	color: #fff;
-	text-transform: uppercase
+	text-transform: uppercase;
+	background: url(../images/boton.png) no-repeat top left;
+    width: 198px;
+    height: 65px;
 }
 
 .button.primary:hover {
-	border: 1px solid #0cd1a5;
-	background-color: #0cd1a5;
+	/*border: 1px solid #0cd1a5;
+	background-color: #0cd1a5;*/
 	color: #000;
 }
 
 .button.primary-negative {
-	border: 1px solid #333bf3;
-	background-color: #333bf3;
+	/*border: 1px solid #333bf3;
+	background-color: #333bf3;*/
 	color: #fff;
-	text-transform: uppercase
+	text-transform: uppercase;
+	background: url(../images/boton.png) no-repeat top left;
+    width: 198px;
+    height: 70px;
 }
 
 .button.primary-negative:hover {
-	border: 1px solid #0cd1a5;
-	background-color: #0cd1a5;
+	/*border: 1px solid #0cd1a5;
+	background-color: #0cd1a5;*/
 	color: #000
 }
 
@@ -3191,7 +3197,11 @@ blockquote {
 }
 
 .white {
-	color: #fff
+	color: #fff;
+}
+
+.black {
+	color: #000;
 }
 
 .justify-right {
@@ -8896,7 +8906,7 @@ blockquote {
   line-height: 88px;
   font-weight: 300;
   letter-spacing: 0;
-  color:#fff;
+  color:#000;
 }
 
 .s3-image-container {

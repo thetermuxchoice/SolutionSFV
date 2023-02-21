@@ -212,7 +212,7 @@
 
   .h2.is-small-h2 {
     font-size: 52px;
-    color: #fff;
+    color: #000;
   }
 
   .h2.is-small-h2.is-s4-h2 {
@@ -476,7 +476,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
   }
 
   .s3 {
@@ -539,7 +539,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
   }
 
   .s3-list-container {
@@ -613,7 +613,7 @@
     margin-top: 6px;
     font-size: 16px;
     line-height: 1.4;
-    color:#fff;
+    color:#000;
   }
 
   .s7 {
@@ -733,7 +733,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color:#fff;
+    color:#000;
   }
 
   .s4-image-container {
@@ -861,7 +861,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
   }
 
   .s5-top-image {
@@ -1301,4 +1301,10 @@
 
   }
 
+
+  .about-images{
+    width: 190px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   
