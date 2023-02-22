@@ -9268,6 +9268,10 @@ color:#fff;
 		text-align: center;
 	}
 
+	.brand {
+		background-size: 250px;
+	}
+
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
