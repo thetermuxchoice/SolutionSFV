@@ -9233,11 +9233,6 @@ color:#fff;
 }
 
 
-
-.h1-octin:hover{
-	transform: perspective(300px) rotateY(4deg) !important;
-}
-
 .description-hero{
   text-transform: uppercase;
   letter-spacing: 0.27em;
