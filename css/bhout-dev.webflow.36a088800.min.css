@@ -2221,7 +2221,8 @@ body {
 	margin: 0;
 	min-height: 100%;
 	height: 100%;
-	background-color: #0c0c0c;
+	/*background-color: #0c0c0c;*/
+	background-color: #fff;
 	font-family: Twklausanne, sans-serif;
 	color: #0c0c0c;
 	font-size: 18px;
@@ -2664,7 +2665,7 @@ blockquote {
 	text-transform: uppercase;
 	background: url(../images/boton.png) no-repeat top left;
     width: 198px;
-    height: 65px;
+    height: 60px;
 }
 
 .button.primary:hover {
@@ -2680,7 +2681,7 @@ blockquote {
 	text-transform: uppercase;
 	background: url(../images/boton.png) no-repeat top left;
     width: 198px;
-    height: 65px;
+    height: 60px;
 }
 
 .button.primary-negative:hover {
@@ -9218,8 +9219,8 @@ blockquote {
   font-size: 160px;
   font-weight: 900;
   letter-spacing: 0.04em;
-  transform: perspective(300px) rotateY(-4deg) !important;
-  transform-origin: 50% 50% !important;
+  /*transform: perspective(300px) rotateY(-4deg) !important;
+  transform-origin: 50% 50% !important;*/
 
   /*text-shadow: 8px  2px  4px   #42424299,
                0  4px  0   #42424299,
@@ -9238,8 +9239,8 @@ color:#fff;
   letter-spacing: 0.27em;
   font-size: 43px;
   line-height: 80px;
-  transform: perspective(300px) rotateY(-4deg) !important;
-  transform-origin: 50% 50% !important;
+  /*transform: perspective(300px) rotateY(-4deg) !important;
+  transform-origin: 50% 50% !important;*/
   color: #fff;
   font-weight: 300 !important;
   padding: 25px;
@@ -9354,7 +9355,7 @@ color:#fff;
   }
   .footer-4 .footer-bottom-content {
 	padding: 20px 0 !important;
-	border-top: 1px solid #252242 !important;
+	border-top: 1px solid #fff !important;
 	font-size: 13px;
   }
   .footer-4 .footer-bottom-content a {
@@ -9797,6 +9798,8 @@ color:#fff;
 	position: relative;
 	background-color: #211e3b;
 	width: 100.5%;
+	background: linear-gradient(93.7deg, #082EBC 25.01%, #00D0A3 118.67%);
+    border-radius: 97px 0px 0px 0px;
   }
   .footer-4 h1, .footer-4 h2, .footer-4 h3, .footer-4 h4 {
 	color: #fff !important;
@@ -9828,7 +9831,7 @@ color:#fff;
   }
   .footer-4 .footer-bottom-content {
 	padding: 20px 0 !important;
-	border-top: 1px solid #252242 !important;
+	border-top: 1px solid #fff !important;
 	color: #fff;
   }
   .footer-4 .footer-bottom-content a {
@@ -9933,7 +9936,7 @@ color:#fff;
   }
   .cta-banner.style-2 .theme-btn:first-child {
 	background-color: #fff;
-	color: #086ad7;
+	color: #1D4BF7;
   }
   .cta-banner.style-3 {
 	overflow: hidden;
@@ -9941,10 +9944,11 @@ color:#fff;
   }
   
   .cta-banner.style-3 .container-fluid {
-	max-width: 1520px;
+	/*max-width: 1520px;*/
 	padding: 90px 15px;
 	border-radius: 0;
-	background-color: #086ad7;
+	background-color: #1D4BF7;
+	margin-bottom: 180px;
   }
   @media (max-width: 1199px) {
 	.cta-banner.style-3 .container-fluid {
@@ -10010,7 +10014,8 @@ color:#fff;
 	line-height: 16px;
 	padding: 18px 30px;
 	position: relative;
-	border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
+    color: #fff;
   }
   .cta-banner.style-3 .theme-btn:before {
 	left: 0;
@@ -10056,13 +10061,13 @@ color:#fff;
   }
   @media (min-width: 1650px) {
 	.cta-banner .container-fluid {
-	  max-width: 1600px;
+	  /*max-width: 1600px;*/
 	  width: 100%;
 	}
   }
   @media (max-width: 1649px) {
 	.cta-banner .container-fluid {
-	  max-width: 96%;
+	  max-width: 100%;
 	  padding-left: 50px;
 	  padding-right: 50px;
 	}

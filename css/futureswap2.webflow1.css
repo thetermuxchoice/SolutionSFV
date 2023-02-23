@@ -1308,3 +1308,30 @@
     padding: 20px;
   }
   
+
+  .border-mission{
+    background: #FFFFFF;
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width:75%;
+    margin: 0 auto;
+  }
+
+  .module-border-wrap {
+
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+    linear-gradient(68deg, #f4f6f6 4%, #1d4bf7 43%, #1D4BF7 58%, rgba(250,248,252,1) 99%);
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+
+    
+  }
+  
+
+  
