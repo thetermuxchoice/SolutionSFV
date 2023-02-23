@@ -2221,10 +2221,9 @@ body {
 	margin: 0;
 	min-height: 100%;
 	height: 100%;
-	/*background-color: #0c0c0c;*/
-	background-color: #fff;
+	background-color: #0c0c0c;
 	font-family: Twklausanne, sans-serif;
-	color: #0c0c0c;
+	color: #fff;
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: .01em
