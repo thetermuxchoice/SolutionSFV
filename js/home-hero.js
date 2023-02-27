@@ -157,7 +157,7 @@ const sizes = {
  height: window.innerHeight
 };
 
-console.log('width: '+window.innerWidth);
+/*console.log('width: '+window.innerWidth);*/
 
 /**
  * Camera
