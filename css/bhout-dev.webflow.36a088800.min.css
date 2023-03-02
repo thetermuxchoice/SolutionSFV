@@ -926,7 +926,7 @@ textarea.w-select {
   }
 
 
-  .hero-section:before {
+  .hero-section-b:before {
 	content: '';
 	position: absolute;
 	background: rgba(0, 0, 0, 0.7);
