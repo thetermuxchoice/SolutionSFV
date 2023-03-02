@@ -819,6 +819,126 @@ textarea.w-select {
 	display: none !important
 }
 
+.margin-top-65{
+	margin-top: 65px;
+  }
+
+  #what-drives-us{
+	margin-top:150px;
+  }
+
+
+/*testimonial*/
+
+  .main-gallery {
+	/*background: #fff;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+	border-top: solid 10px #7AA641;*/
+  
+  }
+
+  .main-gallery1 {
+	margin-top: -50px;
+  }
+  
+  .gallery-cell {
+	width: 100%;
+  }
+  
+  .testimonial {
+	text-align: center;
+	max-width: 850px;
+	margin: 100px auto 130px auto;
+	padding: 0 20px;
+  }
+
+  .testimonial1{
+	text-align: center;
+	max-width: 1200px;
+	margin: 100px auto 130px auto;
+	padding: 0 20px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .testimonial-avatar {
+	width: 300px;
+	border-radius: 50%;
+	margin-top:50px;
+  }
+
+  .testimonial-avatar1 {
+	/*width: 300px;*/
+	border-radius: 50%;
+	/*margin-top:50px;*/
+	padding: 10px;
+  }
+  
+  .testimonial-quote {
+	display: block;
+	font-size: 26px;
+	font-weight: 300;
+	padding: 10px 0;
+  }
+
+  .testimonial-quote1 {
+	display: block;
+	/*font-size: 26px;
+	font-weight: 300;*/
+	padding: 10px 0;
+	font-weight: 600;
+	font-size: 95px;
+	line-height: 100px;
+	text-align: left;
+	padding: 50px;
+  }
+  
+  .testimonial-author {
+	display: block;
+	font-weight: 800;
+	color: #7AA641;
+  }
+  
+  .flickity-page-dots {
+	bottom: 25px;
+  }
+  
+  .flickity-page-dots .dot.is-selected {
+	background: #7AA641;
+  }
+
+  .div-home-h1{
+	width: 30%;
+	height: 500px;
+
+  }
+
+  .div-home-h2{
+	width: 70%;
+	height: 500px;
+
+
+  }
+
+
+  .hero-section:before {
+	content: '';
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 115vh;
+  }
+
+
 @media screen and (max-width:991px) {
 	.w-container {
 		max-width: 728px
@@ -884,6 +1004,39 @@ textarea.w-select {
 		width: 100%;
 		left: auto;
 		right: auto
+	}
+
+	.testimonial1 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	
+
+	.div-home-h1 {
+		width: 100%;
+		height: auto;
+	}
+
+	.div-home-h2 {
+		width: 100%;
+	}
+	.testimonial-quote1 {
+		font-size: 75px;
+		line-height: 85px;
+		text-align: center;
+	}
+
+	.div-home-h2 {
+		height: auto;
+	}
+
+	.testimonial-avatar1{
+		width: 35%;
 	}
 }
 
@@ -956,6 +1109,28 @@ textarea.w-select {
 
 	.w-col-small-12 {
 		width: 100%
+	}
+
+	.div-home-h1 {
+		width: 100%;
+		height: auto;
+	}
+
+	.div-home-h2 {
+		width: 100%;
+	}
+	.testimonial-quote1 {
+		font-size: 40px;
+		line-height: 50px;
+		text-align: center;
+	}
+
+	.div-home-h2 {
+		height: auto;
+	}
+
+	.testimonial-avatar1{
+		width: 40%;
 	}
 }
 
@@ -2625,8 +2800,8 @@ blockquote {
 }
 
 .button.small.primary-negative {
-	background-color: #fff;
-	color: #0c0c0c
+	background-color: #ffffff00;
+	color: #fff
 }
 
 .button.small.secondary {
@@ -2769,9 +2944,13 @@ blockquote {
 
 .description {
 	font-family: Twklausanne, sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;
 	line-height: 34px;
-	font-weight: 100
+	font-weight: 100*/
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 44px;
+	text-align: center;
 }
 
 .description.black-bhout,
@@ -3189,11 +3368,30 @@ blockquote {
 	margin-top: 40px;
 	margin-bottom: 24px;
 	font-family: Twklausanne, sans-serif;
-	font-size: 80px;
+	/*font-size: 80px;
 	line-height: 88px;
-	font-weight: 300;
-	letter-spacing: 0
+	font-weight: 300;*/
+	letter-spacing: 0;
+	font-weight: 600;
+	font-size: 110px;
+	line-height: 118px;
+	text-align: center;
 }
+
+.h1-txt1 {
+	margin-top: 40px;
+	margin-bottom: 24px;
+	font-family: Twklausanne, sans-serif;
+	/*font-size: 80px;
+	line-height: 88px;
+	font-weight: 300;*/
+	letter-spacing: 0;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 68px;
+	text-align: center;
+}
+
 
 .h1-txt.blending-contrast {
 	mix-blend-mode: luminosity
@@ -3208,14 +3406,17 @@ blockquote {
 }
 
 .justify-right {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: end;
-	-webkit-justify-content: flex-end;
-	-ms-flex-pack: end;
-	justify-content: flex-end
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: center;
+    -ms-flex-pack: end;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 .kick-animation-div {
@@ -4730,7 +4931,7 @@ blockquote {
 }
 
 .txt-separator-container {
-	width: 45%;
+	width: 80%;
 	margin-top: 40px
 }
 
@@ -5295,7 +5496,7 @@ blockquote {
 }
 
 .nav-link-wrap.dark {
-	background-color: hsla(0, 0%, 100%, .16)
+	/*background-color: hsla(0, 0%, 100%, .16)*/
 }
 
 .nav-link-wrap.underline-dev {
@@ -5335,7 +5536,7 @@ blockquote {
 }
 
 .nav-link.w--current {
-	color: #0c0c0c;
+	color: #fff;
 	text-shadow: 0 0 0 #0c0c0c
 }
 
@@ -5966,7 +6167,7 @@ blockquote {
 	width: 100%;
 	height: 80px;
 	padding: 12px 40px;
-	background-color: #0c0c0c;
+	background: linear-gradient(217deg, #000, rgba(255,0,0,0) 70.71%), linear-gradient(127deg, #000, rgba(0,255,0,0) 70.71%), linear-gradient(336deg, #000, rgba(0,0,255,0) 70.71%);
 	opacity: 0
 }
 
@@ -7245,6 +7446,13 @@ blockquote {
 		line-height: 52px
 	}
 
+	.h1-txt1 {
+		margin-top: 24px;
+		margin-bottom: 10px;
+		font-size: 48px;
+		line-height: 52px
+	}
+
 	.slider-mood-rings {
 		width: 50%;
 		height: 100%;
@@ -7698,6 +7906,15 @@ blockquote {
 		top: -12px;
 		width: 24px;
 		height: 24px
+	}
+
+	.testimonial1 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
@@ -10354,3 +10571,67 @@ color:#fff;
 	  font-size: 28px;
 	}
   }
+
+
+
+  @media screen and (min-width:991px) and (max-width:1200px) {
+  
+	.div-home-h1 {
+		width: 50%;
+		height: auto;
+	}
+	.testimonial-quote1 {
+		font-size: 78px;
+		line-height: 88px;
+		text-align: center;
+	}
+
+	.div-home-h2 {
+		height: auto;
+	}
+
+	.testimonial-avatar1{
+		width: 100%;
+	}
+  }
+
+
+  @media screen and (min-width:1201px) and (max-width:1439px) {
+  
+	.testimonial-quote1 {
+
+		font-size: 81px;
+		line-height: 91px;
+
+	}
+
+	.div-home-h1 {
+		width: 50%;
+		height: auto;
+	}
+
+
+
+	.testimonial-avatar1{
+		width: 80%;
+	}
+
+  }
+
+  #myVideo {
+	position: absolute;
+	z-index: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 129%;
+	top: -13%;
+ }
+
+  @media screen and (max-width:479px) {
+  
+	#myVideo{
+		height: 166%;
+	}
+
+  }
+
