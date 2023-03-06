@@ -1197,27 +1197,5 @@
 
 
       </script>
-
-<script>
-   var fixmeTop = $('.fixme').offset().top;
-   console.log('entroooo'+fixmeTop);
-$(window).scroll(function() {
-
-var currentScroll = $(window).scrollTop();
-console.log('entroooo'+currentScroll );
-if (currentScroll >= fixmeTop) {
-$('.fixme').css({
-   position: 'fixed',
-   top: '0',
-   left: '0'
-});
-} else {
-$('.fixme').css({
-   position: 'static'
-});
-}
-});
-
-</script>
    </body>
 </html>
