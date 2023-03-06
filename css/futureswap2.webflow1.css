@@ -215,6 +215,11 @@
     color: #fff;
   }
 
+  .h2.is-small-h2-1 {
+    font-size: 36px;
+    color: #fff;
+  }
+
   .h2.is-small-h2.is-s4-h2 {
     width: 80%;
   }
@@ -614,6 +619,15 @@
     font-size: 16px;
     line-height: 1.4;
     color:#fff;
+  }
+
+  .s5-item-description-1 {
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 2.1;
+    color:#fff;
+    font-weight: 100;
+    text-align: justify;
   }
 
   .s7 {
@@ -1317,6 +1331,16 @@
     margin: 0 auto;
   }
 
+  
+  .border-mission1{
+    background: #FFFFFF;
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width:90%;
+    margin: 0 auto;
+  }
+
+
   .module-border-wrap {
 
     background: radial-gradient(circle at 100% 100%, #0c0c0c 0, #0c0c0c 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
@@ -1333,5 +1357,19 @@
     
   }
   
+  .module-border-wrap1 {
 
+    background: radial-gradient(circle at 100% 100%, #0c0c0c 0, #0c0c0c 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #0c0c0c 0, #0c0c0c 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #0c0c0c 0, #0c0c0c 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #0c0c0c 0, #0c0c0c 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#0c0c0c, #0c0c0c) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+    linear-gradient(#0c0c0c, #0c0c0c) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+    linear-gradient(68deg, #0c0c0c 4%, #fff 43%, #fff 58%, #0c0c0c 99%);
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    height: 470px;
+    
+  }
   
