@@ -2731,7 +2731,7 @@ blockquote {
 	/*background-color: #0c0c0c;*/
 	background: linear-gradient(217deg, #000, rgba(255,0,0,0) 70.71%), 
 	            linear-gradient(127deg, #000, rgba(0,255,0,0) 70.71%), 
-				linear-gradient(336deg, #000, rgba(0,0,255,0) 70.71%);
+				linear-gradient(336deg, #000, rgba(0,0,255,0) 70.71%) !important;
 	opacity: 0
 }
 
@@ -4557,7 +4557,7 @@ blockquote {
 	right: 0;
 	bottom: 0;
 	display: none;
-	background-image: url("https://uploads-ssl.webflow.com/62a4adf55e8f635edbb14c13/62b5b820bc84bf1a751135d4_BHOUT_Logo_white.svg")
+	background-image: url("../images/logo1.png")
 }
 
 .cta-card-background-vid {
@@ -9486,7 +9486,7 @@ color:#fff;
 	}
 
 	.brand {
-		background-size: 250px;
+		background-size: 155px;
 	}
 
 }
@@ -10771,20 +10771,519 @@ color:#fff;
 	margin-bottom: 30px;
 	width: 600px;
   }
-  
 
-  
-  .phase-title3{
-	/*float: left;*/
-	position: absolute;
-	top: 0px;
-	left: -515px;
-	/* margin: 0 auto; */
-	width: 67%;
-	text-align: center;
+
+  .infog-01{
+	width: 420px;
+	height: 420px;
+	background: #004afc;
+	padding: 30px;
+	border-radius: 50%;
+	margin: 0 auto;
+	border: 28px solid #1d1c20;
+	outline: 1px solid #ffff;
+	margin-top: 20px;
+  }
+  .infog-02{
+	width: 480px;
+	height: 480px;
+	background: #004afc;
+	padding: 30px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin: 70px auto;
   }
   
+  .infog-h1-01{
+	height: auto;
+	color: white;
+	margin: 60px auto;
+	font-size: 41px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 60px;
+  }
+  
+  .infog-h1-02{
+	height: auto;
+	color: white;
+	margin: 120px auto;
+	font-size: 41px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 60px;
+  }
 
+
+  .infog-h1-03{
+	height: auto;
+	color: white;
+	margin: 160px auto;
+	font-size: 41px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 60px;
+  }
+
+  .infog-h1-04{
+	height: auto;
+	color: white;
+	margin: 100px auto;
+	font-size: 41px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 60px;
+  }
+  
+  
+
+  
+ 
+
+
+  @media screen and (max-width: 400px) {
+	.phase-div {
+		padding: 10px;
+		margin: 10px auto;
+		  margin-bottom: 10px;
+		padding: 10px;
+		margin-bottom: 30px;
+		width: 208px;
+	  }
+
+	  .phase-h1{
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+		text-align: left !important;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 900 !important;
+		padding: 10px;
+		width: 240px;
+        
+	  
+	  }
+
+
+	  .phase-title1{
+		width: 100%;
+		position: static;
+		height: 100px;
+	  }
+
+	  .timeline-container .vertical-scrollable-timeline {
+		width:260px;
+	  }
+
+
+	  .infog-01{
+		width: 270px;
+		height: 270px;
+		float: left;
+	  }
+	  .infog-02{
+		width: 300px;
+		height: 300px;
+		float: right;
+	  }
+	  .infog-h1-01 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 22px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 35px;
+
+	  }
+	  .infog-h1-02 {
+		height: auto;
+		color: white;
+		margin: 85px auto !important;
+		font-size: 22px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 35px;
+
+	  }
+
+	  .infog-h1-03 {
+		height: auto;
+		color: white;
+		margin: 85px auto !important;
+		font-size: 22px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 35px;
+
+	  }
+
+	  .infog-h1-04 {
+		height: auto;
+		color: white;
+		margin: 40px auto !important;
+		font-size: 22px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 35px;
+
+	  }
+
+
+	  .button.primary {
+		width: 198px;
+		height: 60px;
+	}
+
+
+  }
+
+  @media screen and (min-width: 401px) and (max-width: 450px) {
+	.phase-div {
+		padding: 10px;
+		margin: 10px auto;
+		  margin-bottom: 10px;
+		padding: 10px;
+		margin-bottom: 30px;
+		width: 208px;
+	  }
+
+	  .phase-h1{
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+		text-align: left;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 900 !important;
+		padding: 10px;
+		width: 240px;
+        
+	  }
+
+	  .phase-title1{
+		width: 100%;
+		position: static;
+		height: 100px;
+	  }
+	  .timeline-container .vertical-scrollable-timeline {
+		width:260px;
+	  } 
+
+	  .infog-01{
+		width: 300px;
+		height: 300px;
+		float: left;
+	  }
+	  .infog-02{
+		width: 320px;
+		height: 320px;
+		float: right;
+	  }
+	  .infog-h1-01 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 29px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 40px;
+	  }
+	  .infog-h1-02 {
+		height: auto;
+		color: white;
+		margin: 55px auto !important;
+		font-size: 29px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 40px;
+	  }
+
+	  .infog-h1-03 {
+		height: auto;
+		color: white;
+		margin: 70px auto !important;
+		font-size: 29px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 40px;
+	  }
+
+	  .infog-h1-04 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 29px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 40px;
+	  }
+  }
+
+
+  @media screen and (min-width: 450px) and (max-width: 550px) {
+
+	.phase-div {
+		padding: 10px;
+		margin: 10px auto;
+		  margin-bottom: 10px;
+		padding: 10px;
+		margin-bottom: 30px;
+		width: 215px;
+	  }
+
+
+	  .phase-h1{
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+		text-align: left;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 900 !important;
+		padding: 10px;
+		width: 280px;
+        
+	  
+	  }
+
+	  .phase-title1{
+		width: 100%;
+		position: static;
+		height: 100px;
+	  }
+
+	  .infog-01{
+		width: 320px;
+		height: 320px;
+		float: left;
+	  }
+	  .infog-02{
+		width: 350px;
+		height: 350px;
+		float: right;
+	  }
+	  .infog-h1-01 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 32px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+	  .infog-h1-02 {
+		height: auto;
+		color: white;
+		margin: 58px auto !important;
+		font-size: 32px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+
+	  .infog-h1-03 {
+		height: auto;
+		color: white;
+		margin: 58px auto !important;
+		font-size: 32px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+
+	  .infog-h1-04 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 32px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+  }
+
+  @media screen and (min-width: 550px) and (max-width: 768px) {
+
+	.phase-div {
+		padding: 10px;
+		margin: 10px auto;
+		  margin-bottom: 10px;
+		padding: 10px;
+		margin-bottom: 30px;
+		width: 300px;
+	  }
+
+	  .phase-h1{
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+		text-align: left;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 900 !important;
+		padding: 10px;
+		width: 300px;
+        
+	  
+	  }
+
+	  .phase-title1{
+		width: 100%;
+		position: static;
+		height: 100px;
+	  }
+
+	  .infog-01{
+		width: 320px;
+		height: 320px;
+		float: left;
+	  }
+	  .infog-02{
+		width: 350px;
+		height: 350px;
+		float: right;
+	  }
+	  .infog-h1-01 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 34px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+	  .infog-h1-02 {
+		height: auto;
+		color: white;
+		margin: 35px auto !important;
+		font-size: 34px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+
+	  .infog-h1-03 {
+		height: auto;
+		color: white;
+		margin: 75px auto !important;
+		font-size: 34px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+
+	  .infog-h1-04 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 34px !important;
+		text-align: center;
+		font-weight: 900;
+		line-height: 50px;
+	  }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1000px) {
+
+	.s6-container {
+		width: 103% !important;
+	}
+	.phase-div {
+		padding: 10px;
+		margin: 10px auto;
+		  margin-bottom: 10px;
+		padding: 10px;
+		margin-bottom: 30px;
+		width: 300px;
+	  }
+
+	  .phase-h1{
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+		text-align: left;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 900 !important;
+		padding: 10px;
+		width: 350px;
+        
+	  
+	  }
+
+	  .phase-title1{
+		width: 100%;
+		position: static;
+		height: 100px;
+	  }
+
+	  .infog-01{
+		width: 360px;
+		height: 360px;
+	  }
+	  .infog-02{
+		width: 380px;
+		height: 380px;
+	  }
+	  .infog-h1-01 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 40px !important;
+		text-align: center;
+		font-weight: 900;
+	  }
+	  .infog-h1-02 {
+		height: auto;
+		color: white;
+		margin: 85px auto !important;
+		font-size: 40px !important;
+		text-align: center;
+		font-weight: 900;
+	  }
+
+	  .infog-h1-03 {
+		height: auto;
+		color: white;
+		margin: 85px auto !important;
+		font-size: 40px !important;
+		text-align: center;
+		font-weight: 900;
+	  }
+
+	  .infog-h1-04 {
+		height: auto;
+		color: white;
+		margin: 20px auto !important;
+		font-size: 40px !important;
+		text-align: center;
+		font-weight: 900;
+	  }
+
+  }
+
+
+
+  @media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+	.phase-h1{
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+		text-align: left;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 900 !important;
+		padding: 10px;
+		width: 250px;
+        
+	  
+	  }
+	.phase-title1{
+		float: left;
+		position: absolute;
+		top: 30px;
+		left: -250px;
+		/* margin: 0 auto; */
+		width: 67%;
+	  }
+  }
 
 
   .margin-bottom-100{
