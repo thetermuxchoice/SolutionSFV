@@ -6424,14 +6424,14 @@ blockquote {
 	overflow: hidden;
 	width: 240px;
 	height: 8px;
-	border: 1px solid #fff;
+	border: 1px solid #ffffff00;
 	border-radius: 8px
 }
 
 .loader-progress-bar {
 	width: 0%;
 	height: 100%;
-	background-color: #fff;
+	background-color: #ffffff00;
 }
 
 .empty-state {

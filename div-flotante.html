@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Div que te sigue con el scroll</title>
+<style>
+#content {
+width: 100%;
+margin: 0px auto;
+}
+#column-left {
+background-color: #EBE9EA;
+border: 1px solid #D2D2D2;
+border-radius: 8px 8px 8px 8px;
+float: left;
+/* para mantener visible un elemento en todo momento aunque se haga scroll en la página */
+position: fixed;
+min-height: 225px;
+margin-bottom: 10px;
+overflow: hidden;
+text-align: center;
+width: 26%;
+padding: 6px;
+}
+#central {
+background-color: #EBE9EA;
+border: 1px solid #D2D2D2;
+border-radius: 8px 8px 8px 8px;
+float: right;
+height: 5000px;
+margin-bottom: 10px;
+width: 68%;
+padding: 4px;
+}
+</style>
+</head>
+
+<body>
+<div id="content">
+<div id="column-left">Columna izquierda que se mueve con el scroll...</div>
+<div id="central">Bloque central</div>
+</div>
+</body>
+</html>
