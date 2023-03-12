@@ -612,6 +612,12 @@
   .s5-list-icon {
     width: 32px;
     margin-right: 20px;
+    padding: 8px;
+  }
+
+  .s5-list-icon1 {
+    width: 32px;
+    padding: 8px;
   }
 
   .s5-item-description {
