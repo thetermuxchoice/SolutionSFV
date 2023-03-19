@@ -892,16 +892,18 @@ textarea.w-select {
 	font-weight: 300;*/
 	padding: 10px 0;
 	font-weight: 600;
-	font-size: 95px;
-	line-height: 100px;
-	text-align: left;
+	font-size: 75px;
+	line-height: 80px;
+	text-align: center;
 	padding: 50px;
   }
   
   .testimonial-author {
 	display: block;
 	font-weight: 800;
-	color: #7AA641;
+	color: #004afc;
+	font-size: 40px;
+	line-height: 45px;
   }
   
   .flickity-page-dots {
@@ -921,8 +923,10 @@ textarea.w-select {
   .div-home-h2{
 	width: 70%;
 	height: 500px;
-
-
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
   }
 
 
