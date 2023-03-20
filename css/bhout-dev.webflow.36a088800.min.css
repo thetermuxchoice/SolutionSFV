@@ -10801,18 +10801,18 @@ color:#fff;
 	width: 600px;
   }
   .container-info{
-	width: 207vh!important; 
-	max-width: 207vh !important;
+	width: 217vh!important; 
+	max-width: 217vh !important;
   }
 
 
-  .info-01{
+  .info-01, .info-02, .info-03, .info-04, .info-05, .info-06 {
 	display: flex;
   }
 
 
   @media screen and (max-width: 900px) {
-  .info-01{
+	.info-01, .info-02, .info-03, .info-04, .info-05, .info-06 {
 	display: flex;
 	flex-direction: column;
   }
@@ -10824,15 +10824,15 @@ color:#fff;
   }
 
   .bg-01{
-	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat; background-position: 100% 17%;
+	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat; background-position: 100% 45%;
   }
 
   .bg-02{
-	background-image: url(../images/bg_flecha02.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 100%; background-position: center 4px;
+	background-image: url(../images/bg_flecha02.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 100%; background-position: center 200px;
   }
 
   .bg-03{
-	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat;background-position: 0 4px;
+	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat;background-position: 0 200px;
   }
 
 
