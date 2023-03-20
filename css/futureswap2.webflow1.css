@@ -462,7 +462,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 90%;
+    width: 100%;
   }
 
   .s6-info-container {

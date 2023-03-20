@@ -916,7 +916,7 @@ textarea.w-select {
 
   .div-home-h1{
 	width: 31%;
-	height: 500px;
+	height: 450px;
 
   }
 
@@ -3381,6 +3381,7 @@ blockquote {
 	font-size: 110px;
 	line-height: 118px;
 	text-align: center;
+	width:80%;
 }
 
 .h1-txt1 {
@@ -10747,6 +10748,16 @@ color:#fff;
 	content: unset;
   }
 
+  .phase-title1{
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: -495px;
+	/* margin: 0 auto; */
+	width: 67%;
+  }
+  
+
   .phase-h2{
 	font-size: 2rem;
 	line-height: 100%;
@@ -10775,6 +10786,40 @@ color:#fff;
 	margin-bottom: 30px;
 	width: 600px;
   }
+  .container-info{
+	width: 207vh!important; 
+	max-width: 207vh !important;
+  }
+
+
+  .info-01{
+	display: flex;
+  }
+
+
+  @media screen and (max-width: 900px) {
+  .info-01{
+	display: flex;
+	flex-direction: column;
+  }
+
+  .container-info{
+	width: 100% !important; 
+	max-width: 100%!important;
+  }
+  }
+
+  .bg-01{
+	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat; background-position: 100% 17%;
+  }
+
+  .bg-02{
+	background-image: url(../images/bg_flecha02.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 100%; background-position: center 4px;
+  }
+
+  .bg-03{
+	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat;background-position: 0 4px;
+  }
 
 
   .infog-01{
@@ -10786,7 +10831,7 @@ color:#fff;
 	margin: 0 auto;
 	border: 28px solid #1d1c20;
 	outline: 1px solid #ffff;
-	margin-top: 20px;
+	margin-top: 65px;
   }
   .infog-02{
 	width: 480px;
@@ -10973,6 +11018,9 @@ color:#fff;
 		width:260px;
 	  } 
 
+
+
+
 	  .infog-01{
 		width: 300px;
 		height: 300px;
@@ -11055,6 +11103,9 @@ color:#fff;
 		height: 100px;
 	  }
 
+
+
+
 	  .infog-01{
 		width: 320px;
 		height: 320px;
@@ -11134,6 +11185,9 @@ color:#fff;
 		position: static;
 		height: 100px;
 	  }
+
+
+
 
 	  .infog-01{
 		width: 320px;
@@ -11217,6 +11271,10 @@ color:#fff;
 		position: static;
 		height: 100px;
 	  }
+
+
+
+
 
 	  .infog-01{
 		width: 360px;
