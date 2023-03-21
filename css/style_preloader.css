@@ -335,7 +335,7 @@ text-align: center;
 }
 
 /* Tamaño de portatil hacia atras (portatil, tablet, celular) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 961px) {
 	/* Preloader */
 	/* Spinner cargando */	
 	.ctn-preloader .animation-preloader .spinner {

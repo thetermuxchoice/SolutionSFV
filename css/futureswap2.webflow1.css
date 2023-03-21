@@ -220,6 +220,12 @@
     color: #fff;
   }
 
+  @media screen and (max-width: 600px){
+    .h2.is-small-h2-1 {
+      font-size: 30px;
+  }
+}
+
   .h2.is-small-h2.is-s4-h2 {
     width: 80%;
   }
@@ -1142,7 +1148,7 @@
     }
 
     .s4-image-wrapper {
-      width: 80%;
+      width: 100%;
       margin-right: auto;
       margin-left: auto;
       padding-left: 0px;

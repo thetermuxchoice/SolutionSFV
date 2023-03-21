@@ -943,6 +943,16 @@ textarea.w-select {
 	z-index: 1;
   }
 
+  @media screen and (max-width:767px) {
+  .hero-section-b:before {
+		height:116vh;
+	}
+  }
+  @media screen and (min-width: 767px) and (max-width: 1000px) {
+	.hero-section-b:before {
+		height:96vh;
+	}
+  }
 
 @media screen and (max-width:991px) {
 	.w-container {
@@ -1045,6 +1055,62 @@ textarea.w-select {
 	}
 }
 
+
+
+@media screen and (max-width:800px) {
+
+	.testimonial-quote1 {
+		font-size: 30px;
+		line-height: 50px;
+		text-align: center;
+		padding: 0 0 29px 0;
+	
+	}
+	.testimonial-author {
+		font-size: 30px;
+		line-height: 50px;
+		text-align: center;
+	}
+	
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+	.testimonial-quote1 {
+		font-size: 35px;
+		line-height: 50px;
+		text-align: center;
+		padding: 0 0 29px 0;
+	
+	}
+	.testimonial-author {
+		font-size: 35px;
+		line-height: 50px;
+		text-align: center;
+	}
+
+
+	
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+
+	.testimonial-quote1 {
+		font-size: 37px;
+		line-height: 50px;
+		text-align: center;
+		padding: 0 0 29px 0;
+	
+	}
+	.testimonial-author {
+		font-size: 37px;
+		line-height: 50px;
+		text-align: center;
+	}
+
+	
+}
+
 @media screen and (max-width:767px) {
 
 	.w-hidden-main,
@@ -1124,11 +1190,8 @@ textarea.w-select {
 	.div-home-h2 {
 		width: 100%;
 	}
-	.testimonial-quote1 {
-		font-size: 40px;
-		line-height: 50px;
-		text-align: center;
-	}
+	
+	
 
 	.div-home-h2 {
 		height: auto;
@@ -7467,6 +7530,10 @@ blockquote {
 		line-height: 52px
 	}
 
+	.mt-70{
+		margin-top: 70px;
+	}
+
 	.h1-txt1 {
 		margin-top: 24px;
 		margin-bottom: 10px;
@@ -10234,6 +10301,8 @@ color:#fff;
   @media (max-width: 767px) {
 	.cta-banner.style-3 .container-fluid h1 {
 	  line-height: 42px;
+	  font-size:32px;
+	  letter-spacing: 0px;
 	}
   }
   .cta-banner.style-3 .btn-wraper {
@@ -10314,18 +10383,18 @@ color:#fff;
   }
   @media (max-width: 1199px) {
 	.cta-banner .container-fluid {
-	  max-width: 90%;
+	  max-width: 100%;
 	}
   }
   @media (max-width: 767px) {
 	.cta-banner .container-fluid {
-	  max-width: 92%;
+	  max-width: 100%;
 	  padding: 50px 15px;
 	}
   }
   @media (max-width: 500px) {
 	.cta-banner .container-fluid {
-	  max-width: 96%;
+	  max-width: 100%;
 	  padding: 40px 20px;
 	}
   }
@@ -10677,6 +10746,20 @@ color:#fff;
 	position: relative;
 	padding: 35px 0px 60px 60px;
   }
+  @media screen and (max-width: 1200px) {
+
+  .timeline-container .vertical-scrollable-timeline li {
+	position: relative;
+	padding: 35px 0px 0px 60px;
+  }
+
+  .timeline-container {
+
+    padding-bottom: 50px;
+	}
+
+  }
+
   .timeline-container .vertical-scrollable-timeline li:last-child {
 	margin-bottom: 0;
   }
@@ -10801,9 +10884,12 @@ color:#fff;
 	width: 600px;
   }
   .container-info{
-	width: 217vh!important; 
-	max-width: 217vh !important;
+	/*width: 217vh!important; 
+	max-width: 217vh !important;*/
+	width: 100% !important; 
+	max-width: 100%!important;
   }
+
 
 
   .info-01, .info-02, .info-03, .info-04, .info-05, .info-06 {
@@ -10817,10 +10903,7 @@ color:#fff;
 	flex-direction: column;
   }
 
-  .container-info{
-	width: 100% !important; 
-	max-width: 100%!important;
-  }
+
   }
 
   .bg-01{
@@ -10834,6 +10917,20 @@ color:#fff;
   .bg-03{
 	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat;background-position: 0 200px;
   }
+
+  @media screen and (max-width: 900px) {
+	.bg-01{
+		background-image: url(../images/bg_flecha02_responsive.png); background-size: 100%; background-repeat: no-repeat; background-position: 100% 45%;
+	  }
+	  .bg-02{
+		background-image: url(../images/bg_flecha02_responsive.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 100%; background-position: 100% 45%;
+	  }
+	
+	  .bg-03{
+		background-image: url(../images/bg_flecha02_responsive.png); background-size: 100%; background-repeat: no-repeat;background-position: 0 200px;
+	  }
+  }
+
 
 
   .infog-01{
@@ -10931,7 +11028,7 @@ color:#fff;
 	  .phase-title1{
 		width: 100%;
 		position: static;
-		height: 100px;
+		/*height: 100px;*/
 	  }
 
 	  .timeline-container .vertical-scrollable-timeline {
@@ -10996,6 +11093,12 @@ color:#fff;
 	  .button.primary {
 		width: 198px;
 		height: 60px;
+		background-size: 80%;
+        background-position: 50%;
+	}
+
+	.border-mission { 
+		width: 100% !important;
 	}
 
 
@@ -11026,7 +11129,7 @@ color:#fff;
 	  .phase-title1{
 		width: 100%;
 		position: static;
-		height: 100px;
+		/*height: 100px;*/
 	  }
 	  .timeline-container .vertical-scrollable-timeline {
 		width:260px;
@@ -11083,6 +11186,11 @@ color:#fff;
 		font-weight: 900;
 		line-height: 40px;
 	  }
+
+	  .border-mission { 
+		width: 100% !important;
+	}
+
   }
 
 
@@ -11114,7 +11222,7 @@ color:#fff;
 	  .phase-title1{
 		width: 100%;
 		position: static;
-		height: 100px;
+		/*height: 100px;*/
 	  }
 
 
@@ -11168,6 +11276,10 @@ color:#fff;
 		font-weight: 900;
 		line-height: 50px;
 	  }
+
+	  .border-mission { 
+		width: 100% !important;
+	}
   }
 
   @media screen and (min-width: 550px) and (max-width: 768px) {
@@ -11197,7 +11309,7 @@ color:#fff;
 	  .phase-title1{
 		width: 100%;
 		position: static;
-		height: 100px;
+		/*height: 100px;*/
 	  }
 
 
@@ -11251,6 +11363,10 @@ color:#fff;
 		font-weight: 900;
 		line-height: 50px;
 	  }
+
+	  .border-mission { 
+		width: 100% !important;
+	}
   }
   
   @media screen and (min-width: 768px) and (max-width: 1000px) {
@@ -11283,7 +11399,7 @@ color:#fff;
 	  .phase-title1{
 		width: 100%;
 		position: static;
-		height: 100px;
+		/*height: 100px;*/
 	  }
 
 
@@ -11302,7 +11418,7 @@ color:#fff;
 		height: auto;
 		color: white;
 		margin: 20px auto !important;
-		font-size: 40px !important;
+		font-size: 32px !important;
 		text-align: center;
 		font-weight: 900;
 	  }
@@ -11310,7 +11426,7 @@ color:#fff;
 		height: auto;
 		color: white;
 		margin: 85px auto !important;
-		font-size: 40px !important;
+		font-size: 32px !important;
 		text-align: center;
 		font-weight: 900;
 	  }
@@ -11864,4 +11980,8 @@ margin-top: 50px;
 
 .lista1{
 	list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='#fff' viewBox='-1 -1 2 2'><circle r='1' /></svg>");
+}
+
+.slick-slide {
+	padding: 20px;
 }
