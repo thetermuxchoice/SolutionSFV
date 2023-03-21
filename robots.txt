@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+sitemap: https://www.bhout.com/sitemap.xml
+
+Sitemap: https://www.bhout.com/sitemap.xml
