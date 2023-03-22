@@ -2575,15 +2575,6 @@ blockquote {
 	padding-bottom: 80px
 }
 
-
-
-@media screen and (max-width: 900px) {
-	.section-responsive {
-	padding-top: 10px;
-	padding-bottom: 10px
-	}
-}
-
 .section.no-padding {
 	padding-top: 0;
 	padding-bottom: 0
@@ -9564,7 +9555,7 @@ color:#fff;
 
 @media screen and (max-width:479px) {
 	.content-progress-wrapper{
-		margin-top: 290px;
+		margin-top: 250px;
 	}
 
 }
@@ -10743,7 +10734,7 @@ color:#fff;
   .timeline-container {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 15px;
+	padding-bottom: 300px;
   }
   .timeline-container .vertical-scrollable-timeline {
 	/*width: 50%;*/
@@ -10753,21 +10744,18 @@ color:#fff;
   }
   .timeline-container .vertical-scrollable-timeline li {
 	position: relative;
-	/*padding: 35px 0px 60px 60px;*/
-    padding: 5px 0px 0px 60px;
+	padding: 35px 0px 60px 60px;
   }
   @media screen and (max-width: 1200px) {
 
   .timeline-container .vertical-scrollable-timeline li {
 	position: relative;
-	/*padding: 35px 0px 0px 60px;*/
-    padding: 5px 0px 0px 60px;
+	padding: 35px 0px 0px 60px;
   }
 
   .timeline-container {
 
     padding-bottom: 50px;
-	margin-top:100px;
 	}
 
   }
@@ -10793,7 +10781,7 @@ color:#fff;
   .timeline-container .vertical-scrollable-timeline li .icon-holder {
 	position: absolute;
 	left: 0;
-	top: 45px;
+	top: 10px;
 	width: 25px;
 	height: 25px;
 	display: flex;
@@ -10827,37 +10815,19 @@ color:#fff;
 	/*background-color: #e803fc;*/
 	background-image: linear-gradient(#FFFFFF, #1F1C2C);
 	left: 10px;
-	top: 70px;
+	top: 25px;
 	z-index: 0;
 	transition: 0.4s all;
   }
   .timeline-container .vertical-scrollable-timeline li::before {
 	content: "";
 	position: absolute;
-	/*height: 170%;*/
-	height: 140%;
+	height: 170%;
 	width: 4px;
 	background-color: #c5c3cb;
 	left: 10px;
 	z-index: 0;
-	top: 50px;
-
   }
-  /*@media screen and (max-width: 900px) {
-
-	.timeline-container .vertical-scrollable-timeline li .icon-holder {
-		top: 72px;
-	}
-	.timeline-container .vertical-scrollable-timeline li::after {
-		top: 80px;
-	}
-	.timeline-container .vertical-scrollable-timeline li::before {
-		top: 80px;
-		height: 144%;
-	}
-  }*/
-
-
   .timeline-container .vertical-scrollable-timeline li:last-child::before {
 	content: unset;
   }
@@ -10906,14 +10876,12 @@ color:#fff;
   }
   
   .phase-div {
-	/*padding: 10px;
+	padding: 10px;
 	margin: 10px auto;
 	  margin-bottom: 10px;
 	padding: 10px;
 	margin-bottom: 30px;
-	width: 600px;*/
-    padding: 20px 10px 0px 10px;
-    width: 600px;
+	width: 600px;
   }
   .container-info{
 	/*width: 217vh!important; 
@@ -11039,19 +11007,19 @@ color:#fff;
 		margin: 10px auto;
 		  margin-bottom: 10px;
 		padding: 10px;
-		/*margin-bottom: 30px;*/
+		margin-bottom: 30px;
 		width: 208px;
 	  }
 
 	  .phase-h1{
 		font-size: 1.9rem;
 		line-height: 2.2rem;
-		text-align: left;
+		text-align: left !important;
 		text-transform: uppercase;
 		color: #fff;
 		font-weight: 900 !important;
 		padding: 10px;
-		width: 300px;
+		width: 240px;
         
 	  
 	  }
@@ -11061,7 +11029,7 @@ color:#fff;
 		width: 100%;
 		/*position: static;
 		/*height: 100px;*/
-		top: -100px;
+		top: -73px;
 		left: 0px;
 	  }
 
@@ -11156,17 +11124,14 @@ color:#fff;
 		color: #fff;
 		font-weight: 900 !important;
 		padding: 10px;
-		width: 300px;
+		width: 240px;
         
 	  }
 
 	  .phase-title1{
 		width: 100%;
-		/*position: static;
+		position: static;
 		/*height: 100px;*/
-		top: -100px;
-		left: 0px;
-
 	  }
 	  .timeline-container .vertical-scrollable-timeline {
 		width:260px;
@@ -11251,17 +11216,15 @@ color:#fff;
 		color: #fff;
 		font-weight: 900 !important;
 		padding: 10px;
-		width: 360px;
+		width: 280px;
         
 	  
 	  }
 
 	  .phase-title1{
 		width: 100%;
-		/*position: static;
+		position: static;
 		/*height: 100px;*/
-		top: -100px;
-		left: 0px;
 	  }
 
 
@@ -11340,17 +11303,15 @@ color:#fff;
 		color: #fff;
 		font-weight: 900 !important;
 		padding: 10px;
-		width: 440px;
+		width: 300px;
         
 	  
 	  }
 
 	  .phase-title1{
 		width: 100%;
-		/*position: static;
+		position: static;
 		/*height: 100px;*/
-	    top: -100px;
-		left: 0px;
 	  }
 
 
@@ -11432,17 +11393,15 @@ color:#fff;
 		color: #fff;
 		font-weight: 900 !important;
 		padding: 10px;
-		width: 460px;
+		width: 350px;
         
 	  
 	  }
 
 	  .phase-title1{
 		width: 100%;
-		/*position: static;
+		position: static;
 		/*height: 100px;*/
-		top: -105px;
-		left: 0px;
 	  }
 
 
@@ -11547,7 +11506,7 @@ color:#fff;
   }
   @media screen and (max-width: 720px) {
 	.slicker {
-	  padding-bottom: 0rem;
+	  padding-bottom: 4rem;
 	}
 	.slicker .image-slide {
 	  margin-top: 3rem;
