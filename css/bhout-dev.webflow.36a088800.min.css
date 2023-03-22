@@ -10916,8 +10916,8 @@ color:#fff;
     width: 600px;
   }
   .container-info{
-	/*width: 217vh!important; 
-	max-width: 217vh !important;*/
+	/*width: 222vh!important; 
+	max-width: 222vh !important;*/
 	width: 100% !important; 
 	max-width: 100%!important;
   }
@@ -10938,27 +10938,36 @@ color:#fff;
 
   }
 
+
   .bg-01{
-	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat; background-position: 100% 45%;
+	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat; background-position: center center;
   }
 
-  .bg-02{
-	background-image: url(../images/bg_flecha02.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 100%; background-position: center 200px;
+  /*.bg-01{
+	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat; background-position: center 34px;
   }
 
-  .bg-03{
-	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat;background-position: 0 200px;
+  /*.bg-02{
+	background-image: url(../images/bg_flecha02.png); background-size: cover;background-repeat: no-repeat;background-size: 100%; background-position: center 38px;
   }
+
+  /*.bg-03{
+	background-image: url(../images/bg_flecha02.png); background-size: 100%; background-repeat: no-repeat;background-position: 100% 38px;
+  }*/
 
   @media screen and (max-width: 900px) {
 	.bg-01{
 		background-image: url(../images/bg_flecha02_responsive.png); background-size: 20%; background-repeat: no-repeat; background-position: 50% 42%;
 	  }
-	  .bg-02{
-		background-image: url(../images/bg_flecha02_responsive.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 20%; background-position: 50% 42%;
+	  /*.bg-02{
+		background-image: url(../images/bg_flecha02_responsive.png); /*background-size: cover;*/ /*background-repeat: no-repeat;background-size: 20%; background-position: 50% 42%;
 	  }
 	
 	  .bg-03{
+		background-image: url(../images/bg_flecha02_responsive.png); background-size: 0%; background-repeat: no-repeat;background-position: 0 200px;
+	  }*/
+
+	  .bg-01-fin{
 		background-image: url(../images/bg_flecha02_responsive.png); background-size: 0%; background-repeat: no-repeat;background-position: 0 200px;
 	  }
   }
@@ -12027,6 +12036,9 @@ margin-top: 50px;
 
 .slick-slide {
 	padding: 20px;
+	/*display: flex !important;
+    justify-content: center;
+	width: 100%;*/
 }
 
 @media screen and (max-width:800px) {
@@ -12035,3 +12047,5 @@ margin-top: 50px;
 
 }
 }
+
+
