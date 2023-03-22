@@ -10920,14 +10920,14 @@ color:#fff;
 
   @media screen and (max-width: 900px) {
 	.bg-01{
-		background-image: url(../images/bg_flecha02_responsive.png); background-size: 100%; background-repeat: no-repeat; background-position: 100% 45%;
+		background-image: url(../images/bg_flecha02_responsive.png); background-size: 20%; background-repeat: no-repeat; background-position: 50% 42%;
 	  }
 	  .bg-02{
-		background-image: url(../images/bg_flecha02_responsive.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 100%; background-position: 100% 45%;
+		background-image: url(../images/bg_flecha02_responsive.png); /*background-size: cover;*/ background-repeat: no-repeat;background-size: 20%; background-position: 50% 42%;
 	  }
 	
 	  .bg-03{
-		background-image: url(../images/bg_flecha02_responsive.png); background-size: 100%; background-repeat: no-repeat;background-position: 0 200px;
+		background-image: url(../images/bg_flecha02_responsive.png); background-size: 0%; background-repeat: no-repeat;background-position: 0 200px;
 	  }
   }
 
