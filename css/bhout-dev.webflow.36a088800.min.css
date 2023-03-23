@@ -2584,13 +2584,20 @@ blockquote {
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
 	.section-responsive1 {
-		padding-top: 60px;
-		padding-bottom: 60px
+		padding-top: 80px;
+		padding-bottom: 80px
 		}
 
 
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+	.section-responsive1 {
+		padding-top: 50px;
+		padding-bottom: 50px
+		}
 }
 
 @media screen and (min-width: 450px) and (max-width: 900px) {
