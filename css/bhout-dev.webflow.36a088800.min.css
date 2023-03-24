@@ -10981,7 +10981,85 @@ color:#fff;
 	  }
   }
 
+/*80%*/
+@media screen and (min-width: 1800px) and (max-width: 2000px) {
+	.bg-01 {
+		background-image: url(../images/bg_flecha02_max.png);
+		background-size: 100% 414px;
+		background-repeat: no-repeat;
+		background-position: 0px 88px;
+	}
 
+	.container-info {
+		width: 2200px !important;
+		max-width: 2200px!important;
+	}
+}
+
+/*75%*/
+@media screen and (min-width: 2000px) and (max-width: 2200px) {
+	.bg-01 {
+		background-image: url(../images/bg_flecha02.png);
+		background-size: 100% 422px;
+		background-repeat: no-repeat;
+		background-position: 0px 83px;
+	}
+
+	.container-info {
+		width: 2400px !important;
+		max-width: 2400px!important;
+	}
+}
+
+/*67%*/
+@media screen and (min-width: 2200px) and (max-width: 2400px) {
+	.bg-01 {
+		background-image: url(../images/bg_flecha02.png);
+		background-size: 100% 400px;
+		background-repeat: no-repeat;
+		background-position: 0px -100px;
+	}
+
+	.container-info {
+		width: 2600px !important;
+		max-width: 2600px!important;
+	}
+}
+
+/*50%*/
+@media screen and (min-width: 2400px) and (max-width: 3500px) {
+	.bg-01 {
+		background-image: url(../images/bg_flecha02.png);
+		background-size: 100% 355px;
+		background-repeat: no-repeat;
+		background-position: 0px 97px;
+		height: 808px !important;
+	}
+}
+
+
+
+/*33%*/
+@media screen and (min-width: 3500px) and (max-width:6000px) {
+	.bg-01 {
+		background-image: url(../images/bg_flecha02.png);
+		background-size: 100% 410px;
+		background-repeat: no-repeat;
+		background-position: 123px 88px;
+		height: 808px !important;
+	}
+}
+
+/*25%*/
+@media screen and (min-width: 6000px) and (max-width:9000px) {
+	.bg-01 {
+		background-image: url(../images/bg_flecha02.png);
+		background-size: 100% 440px;
+		background-repeat: no-repeat;
+		background-position: 123px 80px;
+		height: 808px !important;
+	}
+}
 
   .infog-01{
 	width: 420px;
